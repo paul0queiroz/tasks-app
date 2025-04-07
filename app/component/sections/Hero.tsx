@@ -1,11 +1,13 @@
 import React from 'react'
+import "@/styles/global.css"
 
 export default function Hero(){
     return(
-        <div className='font-poppins flex items-center justify-center h-screen bg-gradient-to-r from-[#0f172a] to-[#1e293b]'>
-            <h1 className="text-3xl">Tasks, seu gerenciador de tarefas.</h1>
-            <p className="text-2xl">O gerenciador de tarefas moderno e simples.</p>
-            <button className="rounded-full inline-flex border-2 px-2 py-4 bg-blue-700">Quero criar uma conta já!</button>
+        <div className='font-poppins flex items-center justify-center h-screen bg-gradient-to-r from-[#2900de] to-[#6e7e96]'>
+            <div className='flex flex-col items-center justify-center gap-4'>
+                <h1 className='text-4xl font-bold text-white'>Taskx</h1>
+                <p className='text-white'>Desenvolvido por TypingCode IT - Soluções</p>
+            </div>
         </div>
     )
 }
