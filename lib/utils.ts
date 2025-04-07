@@ -1,0 +1,1 @@
+//Dados estáticos (ex: planos, parceiros)

@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import { poppins } from "../public/fonts/fonts"
-import "./globals.css"; 
-
+import "../styles/globals.css";
 
 export const metadata: Metadata = {
   title: "Taskx",
